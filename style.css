@@ -1,0 +1,98 @@
+/* Utilities Styling */
+body {
+    /* font-family: 'Anton', sans-serif; */
+    /* font-family: 'Bebas Neue', sans-serif; */
+    /* font-family: 'Didact Gothic', sans-serif; */
+    /* font-family: 'DM Sans', sans-serif; */
+    /* ***font-family: 'Figtree', sans-serif; */
+    /* **font-family: 'Fjalla One', sans-serif; */
+    /* font-family: 'IBM Plex Sans', sans-serif; */
+    /* font-family: 'Kanit', sans-serif; */
+    font-family: 'Karla', sans-serif;
+    /* **font-family: 'Manrope', sans-serif; */
+    /* font-family: 'Mulish', sans-serif; */
+    /* font-family: 'Nanum Gothic', sans-serif; */
+    /* **font-family: 'Plus Jakarta Sans', sans-serif; */
+    /* font-family: 'PT Sans', sans-serif; */
+    /* font-family: 'Public Sans', sans-serif; */
+    /* **font-family: 'Questrial', sans-serif; */
+    /* **font-family: 'Sarabun', sans-serif; */
+    /* ***font-family: 'Sora', sans-serif; */
+    /* ***font-family: 'Space Grotesk', sans-serif; */
+    /* font-family: 'Titillium Web', sans-serif; */
+    /* ***font-family: 'Work Sans', sans-serif; */
+    /* font-family: 'Zilla Slab', serif; */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    /* font-family: 'Fjalla One', sans-serif; */
+    font-family: 'Sora', sans-serif;
+    /* font-family: 'Space Grotesk', sans-serif; */
+}
+
+.display-1, .display-2, .display-3, .display-4, .display-5 {
+    font-weight: 600;
+}
+
+/* Text Styling */
+.text-primary {
+    color: #0f70ba !important;
+}
+
+/* Background Styling */
+.bg-primary {
+    background-color: #0f70ba !important;
+}
+.bg-primary-light {
+    /* background-color: #cae9ff; */
+    background-color: #efefd0;
+}
+
+/* Button Styling */
+.btn {
+    border-radius: 1px;
+}
+.btn:hover {
+    background: #0a5893;
+    border-color: #0a5893;
+}
+.btn-outline-primary,
+.btn-primary {
+    border-color: #0f70ba;
+}
+.btn-outline-primary {
+    color: #0f70ba;
+}
+.btn-primary {
+    background-color: #0f70ba;
+}
+
+/* Links Styling */
+a {
+    color: #222;
+    text-decoration: none;
+}
+
+/* Navigation Styling */
+.navbar {
+    min-height: 65px;
+}
+
+/* Banner Styling */
+.banner {
+    /* background-image: url(Media/PICISOC\ -\ Pacific\ islands\ cyber\ capacity\ building\ engagement.jpg); */
+    background-image: url(Media/banner-bg-2-fsm-marek-okon-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-shadow: 2px 2px 35px black;
+    height: 60vh;
+}
+
+.banner a {
+    color: #fff;
+    font-weight: 600;
+}
+.banner a:hover {
+    text-decoration: underline;
+}
