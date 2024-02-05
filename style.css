@@ -111,6 +111,10 @@ header a {
     background-image: url(Media/banner-bg-2-arnaud-jaegers-unsplash.jpg);
 }
 
+#banner-3 {
+    background-image: url(Media/banner-bg-3-kaleb-tapp-unsplash.jpg);
+}
+
 .banner a {
     color: #fff;
     font-weight: 600;
