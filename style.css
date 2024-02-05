@@ -96,13 +96,19 @@ header a {
 
 /* Banner Styling */
 .banner {
-    /* background-image: url(Media/PICISOC\ -\ Pacific\ islands\ cyber\ capacity\ building\ engagement.jpg); */
-    background-image: url(Media/banner-bg-2-fsm-marek-okon-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     text-shadow: 2px 2px 35px black;
     height: 50vh;
+}
+
+#banner-1 {
+    background-image: url(Media/banner-bg-1-fsm-marek-okon-unsplash.jpg);
+}
+
+#banner-2 {
+    background-image: url(Media/banner-bg-2-arnaud-jaegers-unsplash.jpg);
 }
 
 .banner a {
