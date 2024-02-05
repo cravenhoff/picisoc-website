@@ -52,10 +52,11 @@ h1, h2, h3, h4, h5, h6 {
 .btn {
     border-radius: 1px;
 }
-.btn-outline-primary:hover
+.btn:hover,
+.btn-outline-primary:hover,
 .btn-primary:hover {
-    background: #0a5893;
-    border-color: #0a5893;
+    background: #0c5b97;
+    border-color: #0c5b97;
 }
 .btn-outline-primary,
 .btn-primary {
@@ -70,6 +71,9 @@ h1, h2, h3, h4, h5, h6 {
 .btn-light:hover {
     background-color: #eee;
     border-color: #eee;
+}
+.btn-lg {
+    padding: 0.8rem 1.5rem;
 }
 
 /* Links Styling */
