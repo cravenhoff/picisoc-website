@@ -40,10 +40,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Background Styling */
-.bg-primary {
+.bg-warning {
     background-color: #0f70ba !important;
 }
-.bg-primary-light {
+.bg-warning-light {
     /* background-color: #cae9ff; */
     background-color: #efefd0;
 }
@@ -52,7 +52,8 @@ h1, h2, h3, h4, h5, h6 {
 .btn {
     border-radius: 1px;
 }
-.btn:hover {
+.btn-outline-primary:hover
+.btn-primary:hover {
     background: #0a5893;
     border-color: #0a5893;
 }
@@ -65,6 +66,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .btn-primary {
     background-color: #0f70ba;
+}
+.btn-light:hover {
+    background-color: #eee;
+    border-color: #eee;
 }
 
 /* Links Styling */
@@ -93,7 +98,7 @@ header a {
     background-size: cover;
     background-position: center;
     text-shadow: 2px 2px 35px black;
-    height: 60vh;
+    height: 50vh;
 }
 
 .banner a {
@@ -102,4 +107,20 @@ header a {
 }
 .banner a:hover {
     text-decoration: underline;
+}
+
+/* Main Content Styling */
+.main-content-container {
+    padding: 80px 0;
+}
+
+.main-content-container p {
+    color: #898989;
+}
+
+@media (min-width: 767px) {
+    h2 {
+        font-size: 2.85rem;
+        font-weight: 500;
+    }
 }
