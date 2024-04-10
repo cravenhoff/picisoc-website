@@ -128,8 +128,12 @@ header a {
     padding: 80px 0;
 }
 
-.main-content-container p {
+.main-content-container p.lead {
     color: #898989;
+}
+
+#election-content nav {
+    top: 65px;
 }
 
 @media (min-width: 767px) {
